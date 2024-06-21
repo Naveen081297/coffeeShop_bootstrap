@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color: #be9c79;
+    --black: #333;
+    --white: #fff;
+    --light-color: #666;
+    --border: .2rem solid var(--black);
+    --box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serifc;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.homeCon {
+    background: linear-gradient(rgb(234, 230, 230), transparent 60%), url(./images/home-bg.jpg);
+    background-size: cover;
+    background-position: cover;
+    min-height: 500px;
+}
+
+.homeCon .home {
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.homeCon .home .content {
+    width: 600px;
+    text-align: center;
+}
+
+.homeCon .home h3 {
+    font-size: 60px;
+    color: var(--black);
+    font-family: 'Merienda One', cursive;
+}
+
+.homeCon .home p {
+    font-size: 15px;
+    padding: 10px 0;
+    color: var(--black);
+    line-height: 2;
+}
+
+button a {
+    text-decoration-line: none;
+    color: aliceblue;
+}
+
+button {
+    font-family: 'Merienda One', cursive;
+    border-radius: 5px !important;
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: var(--main-color) !important;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: var(--black) !important;
+}
+
+.about-text h3 {
+    font-family: 'Merienda One', cursive;
+    font-optical-sizing: auto;
+}
+
+h2 {
+    font-family: 'Merienda One', cursive;
+}
+h5{
+    font-family: 'Merienda One', cursive;
+
+}
+.contact{
+    border: 2px black !important;
+}
+/* .............................. */
+
+.box i {  
+    font-size: 2rem !important;
+    line-height: 4rem  !important;
+    height: 4rem !important;
+    width: 4rem !important;
+    border-radius: 50% !important ;
+    background-color: var(--main-color) !important;
+    color: var(--white) !important;
+}
+
+.box h3 {
+    /* margin: 5rem 0; */
+    /* font-size: 2rem; */
+    color: var(--black);
+}
+
+.box p {
+    line-height: 2;
+    font-size: 1rem;
+    color: var(--light-color);
+}
+
+/* ............................... */
+
+
+
+.credit span {
+    color: var(--main-color);
+}
